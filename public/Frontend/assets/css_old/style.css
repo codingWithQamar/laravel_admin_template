@@ -1,0 +1,232 @@
+img{
+	width:100%;
+}
+p{
+	font-size: 20px !important;
+}
+a{
+	color: #28A3B3;
+	
+}
+.navbar{
+	background: #28A3B3 !important;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+.navbar-nav .nav-link.active, .nav-link{
+	color: white !important;
+}
+.nav-link{
+	font-size: 18px !important;
+    font-weight: 400;
+    line-height: 22px !important;
+}
+.nav-link:focus, .nav-link:hover{
+	color: white !important;
+}
+
+.nav-select{
+	border: 1px solid white !important;
+font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px 0 5px 5px;
+    color: #fff;
+    cursor: pointer;;
+    background: transparent;
+    border-radius: 10px;
+
+}
+.input-nav{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    flex: 1;
+    display: block;
+    width: 600px;
+    line-height: 40px;
+    padding: 0 16px;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+::placeholder {
+  color: #D3D3D3 !important;
+}
+.input-nav:focus{
+	border: none;
+}
+.nav-search{
+position: absolute;
+left: 170px;
+top: 20px;
+color: #28A3B3 !important;
+font-size: 16px;
+}
+.nav-outline-btn{
+	background: transparent;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	font-size: 13px;
+}
+.nav-bg-btn{
+	background: white;
+	color: #28A3B3 !important;
+	border-radius: 10px;
+	border: 1px solid white;
+	font-size: 13px;
+}
+.carousel-bg{
+	height: 600px;
+	border-radius: 15px;
+	object-fit: cover;
+}
+.border-line {
+  border-right: 1px solid #000;
+}
+.btn-box{
+	background: #28A3B3;
+	color: white !important;
+	border-radius: 10px;
+	border: 1px solid #28A3B3;
+	font-size: 13px;	
+}
+th{
+	font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 15px 0 18px;
+    background-color: #f2f1f6 !important;
+    border: 2px solid white;
+}
+td{
+	font-size: 18px;
+    line-height: 28px;
+    padding: 15px 0 18px;
+    background-color: #f2f1f6 !important;
+    border: 1px solid white;
+}
+/*-----LOGIN-----*/
+		.login {
+			height: 100vh;
+			width: 100%;
+			background: radial-gradient(#653d84, #332042);
+			position: relative;
+		}
+		.login_box {
+			width: 1050px;
+			height: 600px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background: #fff;
+			border-radius: 10px;
+			box-shadow: 1px 4px 22px -8px #0004;
+			display: flex;
+			overflow: hidden;
+		}
+		.login_box .left{
+		  width: 41%;
+		  height: 100%;
+		  padding: 25px 25px;
+		  
+		}
+		.login_box .right{
+		  width: 59%;
+		  height: 100%  
+		}
+		.left .top_link a {
+			color: #452A5A;
+			font-weight: 400;
+		}
+		.left .top_link{
+		  height: 20px
+		}
+		.left .contact{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-self: center;
+			height: 100%;
+			width: 73%;
+			margin: auto;
+		}
+		.left h3{
+		  text-align: center;
+		  margin-bottom: 40px;
+		}
+		.left input {
+			border: none;
+			width: 80%;
+			margin: 15px 0px;
+			border-bottom: 1px solid #4f30677d;
+			padding: 7px 9px;
+			width: 100%;
+			overflow: hidden;
+			background: transparent;
+			font-weight: 600;
+			font-size: 14px;
+		}
+		.left{
+			background: linear-gradient(-45deg, #dcd7e0, #fff);
+		}
+		.submit {
+			border: none;
+			padding: 15px 70px;
+			border-radius: 8px;
+			display: block;
+			margin: auto;
+			margin-top: 120px;
+			background: #583672;
+			color: #fff;
+			font-weight: bold;
+			-webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+			-moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+			box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+		}
+
+
+
+		.right {
+			color: #fff;
+			position: relative;
+		}
+
+		.right .right-text{
+		  height: 100%;
+		  position: relative;
+		  transform: translate(0%, 45%);
+		}
+		.right-text h2{
+		  display: block;
+		  width: 100%;
+		  text-align: center;
+		  font-size: 50px;
+		  font-weight: 500;
+		}
+		.right-text h5{
+		  display: block;
+		  width: 100%;
+		  text-align: center;
+		  font-size: 19px;
+		  font-weight: 400;
+		}
+
+		.right .right-inductor{
+		  position: absolute;
+		  width: 70px;
+		  height: 7px;
+		  background: #fff0;
+		  left: 50%;
+		  bottom: 70px;
+		  transform: translate(-50%, 0%);
+		}
+		.top_link img {
+			width: 28px;
+			padding-right: 7px;
+			margin-top: -3px;
+		}
+/*-----LOGIN-----*/
